@@ -1,0 +1,182 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [
+            "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Namaste", "Hey there", "What's up", "Greetings", "Good morning", "Good evening", "Good afternoon"
+         ],
+         "responses": [
+            "Hey there! 👋 I'm your friendly support bot, always happy to chat! How can I help you today?",
+            "Hello! 😊 Ready to make your day easier. What can I do for you?",
+            "Hi! I'm here to help, just ask me anything!",
+            "Namaste! 🌟 Your virtual buddy is online and ready to assist!"
+         ],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "See you", "Catch you later", "Talk to you soon", "Farewell", "Good night"],
+         "responses": [
+            "See you soon! 😊 Remember, I'm always here if you need help.",
+            "Goodbye! Wishing you a wonderful day ahead! 🌞",
+            "Bye! Come back anytime for a quick chat or help.",
+            "Take care! Your friendly support bot will be waiting. 🤖"
+         ],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thank you so much", "I appreciate it", "Much appreciated", "Thanks a lot", "Thank you very much"],
+         "responses": [
+            "You're most welcome! 😊 Happy to help anytime.",
+            "Glad I could assist! If you have more questions, just ask.",
+            "Anytime! Your satisfaction is my top priority. 🌟",
+            "You're awesome! Let me know if you need anything else."
+         ],
+         "context": [""]
+        },
+        {"tag": "no",
+         "patterns": [
+            "No", "Nope", "Not at all", "I don't think so", "Nah", "No way", "Never", "Not interested", "Not really", "Not now", "Not today", "No thanks", "No thank you", "Not possible", "I refuse", "I decline"
+         ],
+         "responses": ["Okay, let me know if you change your mind.", "Alright, I'm here if you need anything.", "Understood, just type if you need help."],
+         "context": [""]
+        },
+        {"tag": "yes",
+         "patterns": [
+            "Yes", "Yeah", "Yep", "Absolutely", "Of course", "Sure", "Definitely", "Yup", "Affirmative", "Indeed", "That's right", "Correct", "You bet", "Certainly", "Exactly", "Sure thing", "Right", "I agree", "Sounds good", "Please do", "Go ahead", "Ok", "Okay", "Alright", "Fine", "Why not", "Do it", "Proceed", "Continue"
+         ],
+         "responses": ["Great!", "Okay, noted.", "Understood."],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["Help", "I need help", "Can you assist me?", "I need assistance", "Can you help me?"],
+         "responses": ["Sure! What do you need help with?", "I'm here to assist you, what do you need?", "How can I help you today?"],
+         "context": [""]
+        },
+        {"tag": "thanks_for_help",
+         "patterns": ["Thanks for your help", "I appreciate your assistance", "Thank you for helping me", "Thanks for the support", "Thank you for your help"],
+         "responses": ["You're welcome! I'm glad I could help.", "Anytime! I'm here to assist you.", "No problem, happy to help!"],
+         "context": [""]
+        },
+        {"tag": "joke",
+         "patterns": ["Tell me a joke", "Make me laugh", "I need a joke", "Do you know any jokes?", "Can you tell me a joke?"],
+         "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "What do you call fake spaghetti? An impasta!"],
+         "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather today?", "Weather forecast"],
+         "responses": ["I'm not able to check the weather right now, but you can use a weather app or website.", "Sorry, I can't provide real-time weather updates.", "I can't check the weather, but you can look it up online."],
+         "context": [""]
+        },
+        {"tag": "news",
+         "patterns": ["What's the latest news?", "Tell me the news", "Current events", "Latest updates"],
+         "responses": ["I'm unable to provide real-time news updates, but you can check a news website or app.", "Sorry, I can't fetch the latest news right now.", "I can't provide current news, but you can look it up online."],
+         "context": [""]
+        },
+        {"tag": "search",
+         "patterns": ["Search for something", "Look up information", "Find details about", "Search the web"],
+         "responses": ["I can't browse the internet, but you can use a search engine like Google.", "Sorry, I can't perform web searches.", "You can search for information online using a search engine."],
+         "context": [""]
+        },
+        {"tag": "feedback",
+         "patterns": ["Give feedback", "I have feedback", "Feedback on your service", "I want to give feedback"],
+         "responses": ["Thank you for your feedback! It helps us improve.", "We appreciate your feedback!", "Your feedback is valuable to us."],
+         "context": [""]
+        },
+        {"tag": "complaint",
+         "patterns": ["I have a complaint", "Make a complaint", "Complaint about your service", "I want to complain"],
+         "responses": ["I'm sorry to hear that. Please tell me more about your complaint.", "We apologize for any inconvenience. How can we resolve this?", "Your complaint is important to us. Please provide details."],
+         "context": [""]
+        },
+        {"tag": "suggestion",
+         "patterns": ["Give me a suggestion", "Suggest something", "Can you suggest?"],
+         "responses": ["Sure! Always keep learning and stay positive.", "My suggestion: Never stop asking questions!"],
+         "context": [""]
+        },
+        {"tag": "suggestion_hindi",
+         "patterns": ["Give me a suggestion in Hindi", "Hindi suggestion", "Motivational suggestion in Hindi", "Suggestion of the day in Hindi", "मुझे एक सुझाव दो", "प्रेरणादायक सुझाव दो", "मुझे प्रेरित करो", "आज का सुझाव"],
+         "responses": ["सुझाव: हमेशा सीखते रहो और खुश रहो!"] ,
+         "context": [""]
+        },
+        {
+            "tag": "manipal_university_jaipur",
+            "patterns": [
+                "what is manipal university jaipur known for",
+                "tell me about manipal university jaipur",
+                "manipal university jaipur",
+                "manipal jaipur"
+            ],
+            "responses": [
+                "Manipal University Jaipur (MUJ) is known for its high-quality education, modern campus, and diverse academic programs in engineering, management, law, design, and more. It is recognized for its research, innovation, and vibrant student life.",
+                "Manipal University Jaipur is a leading private university in Rajasthan, offering a wide range of undergraduate and postgraduate courses, and is known for its excellent infrastructure and placement opportunities."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "manipal_university_jaipur_hindi",
+            "patterns": [
+                "मणिपाल यूनिवर्सिटी जयपुर के बारे में बताओ",
+                "मणिपाल जयपुर क्या है",
+                "मणिपाल यूनिवर्सिटी जयपुर किस लिए प्रसिद्ध है",
+                "Tell me about Manipal University Jaipur in Hindi",
+                "Manipal University Jaipur Hindi"
+            ],
+            "responses": [
+                "मणिपाल यूनिवर्सिटी जयपुर (MUJ) अपनी उच्च गुणवत्ता वाली शिक्षा, आधुनिक परिसर, और विविध शैक्षणिक कार्यक्रमों के लिए प्रसिद्ध है। यह अनुसंधान, नवाचार और शानदार छात्र जीवन के लिए जाना जाता है।"
+            ],
+            "context": [""]
+        },
+        {"tag": "welcome_message",
+         "patterns": [
+            "Hello! How can I assist you today?",
+            "Welcome! Your virtual support assistant is here 24/7.",
+            "Ask me anything—I'm here to help you instantly!",
+            "Need help? Type your question below and get a quick response.",
+            "Hi there! I’m your smart support bot. Let’s solve your queries together.",
+            "Your satisfaction is my priority. How can I help you today?",
+            "Seamless support, just a message away!"
+         ],
+         "responses": [
+            "Hello! 👋 How can I help you today?",
+            "I'm here to make your support experience seamless!",
+            "Smart. Fast. Friendly. Your virtual support partner.",
+            "Type your question and get instant help!",
+            "Welcome to hassle-free support!"
+         ],
+         "context": [""]
+        },
+        {
+            "tag": "switch_to_english",
+            "patterns": [
+                "talk in english",
+                "reply in english",
+                "please speak in english",
+                "switch to english",
+                "can you talk in english?",
+                "use english language",
+                "english please"
+            ],
+            "responses": [
+                "Sure! I will continue in English. How can I assist you today?",
+                "Okay, switching to English. Please let me know your query.",
+                "Of course! From now on, I will reply in English."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "switch_to_hindi",
+            "patterns": [
+                "talk in hindi",
+                "reply in hindi",
+                "please speak in hindi",
+                "switch to hindi",
+                "can you talk in hindi?",
+                "use hindi language",
+                "hindi please"
+            ],
+            "responses": [
+                "ठीक है! अब से मैं हिंदी में उत्तर दूँगा। कृपया अपना सवाल पूछें।",
+                "बिल्कुल! अब मैं हिंदी में बात करूँगा।",
+                "अब से मैं हिंदी भाषा में उत्तर दूँगा।"
+            ],
+            "context": [""]
+        }
+    ]
+}
